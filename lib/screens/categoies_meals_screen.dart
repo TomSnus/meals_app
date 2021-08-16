@@ -56,7 +56,6 @@ class _CategoryMealsScreenState extends State<CategoryMealsScreen> {
             duration: selectedMeal.duration,
             complexity: selectedMeal.complexity,
             affordability: selectedMeal.affordability,
-            removeItem: _removeMeal,
           );
         },
         itemCount: displayedMeals.length,
